@@ -24,11 +24,6 @@ jobs:
     strategy:
       matrix:
         image:
-          - aarch64-musl
-          - arm-musleabi
-          - arm-musleabihf
-          - mipsel-musl
-          - i586-musl
           - x86_64-musl
     # container:
     #   image: messense/rust-musl-cross:${{ matrix.image }}
